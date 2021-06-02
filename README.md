@@ -22,3 +22,14 @@ more information on the dependency-injection framework.
 Refer to [routing-controllers
 documentation](https://github.com/typestack/routing-controllers#using-di-container)
 for more information on the controllers.
+
+## Getting started
+
+We are using [pnpm](https://pnpm.io/) for package management. Simply install with `npm i -g pnpm`.
+
+Then, run `pnpm i` in the project root to install all dependencies.
+
+Copy `.default.env` into a file `.env` and configure as necessary.
+
+Once that's done, run `npm run dev` to launch the development server.
+
