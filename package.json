@@ -24,8 +24,8 @@
     "prettier-plugin-organize-imports": "^2.1.0",
     "typescript": "^4.3.2"
   },
-  "name": "coordinator",
-  "version": "1.0.0",
+  "name": "scdf-call-triaging-system",
+  "version": "0.0.1",
   "description": "SCDF Call Triaging System",
   "main": "out/index.js",
   "scripts": {
