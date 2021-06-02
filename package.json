@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.3.2"
+  },
+  "name": "coordinator",
+  "version": "1.0.0",
+  "description": "SCDF Call Triaging System",
+  "main": "out/index.js",
+  "scripts": {
+    "dev:build": "tsc -w",
+    "dev:serve": "nodemon out/index.js",
+    "dev": "run-p dev:*"
+  },
+  "author": "",
+  "license": "ISC"
+}
