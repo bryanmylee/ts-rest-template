@@ -1,12 +1,16 @@
 import { Controller, Get } from 'routing-controllers';
-import {Service} from 'typedi';
+import {Inject, Service} from 'typedi';
+import {CaseService} from './CaseService';
 
 @Controller()
 @Service()
 export class CaseController {
+  @Inject()
+  private caseService: CaseService;
+
   @Get('/cases')
   getAll() {
-    return ['case1', 'case2', 'case3'];
+    return this.caseService.getAll();
   }
 }
 
