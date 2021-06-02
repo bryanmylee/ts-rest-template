@@ -1,8 +1,7 @@
 import 'reflect-metadata';
-import { Container } from 'typedi';
 import { useContainer as rcUse } from 'routing-controllers';
+import { Container } from 'typedi';
 
-export const configContainer = () => {
+export const configContainer = (): void => {
   rcUse(Container);
 };
-

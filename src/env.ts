@@ -4,10 +4,11 @@ config();
 
 export const env = {
   port: process.env.PORT,
-}
+};
 
 const FG_GREEN = '\x1b[32m';
 const FG_RESET = '\x1b[0m';
+
 const validateEnv = (e: typeof env) => {
   const undefinedKeys = Object.entries(e)
     .filter(([, value]) => value === undefined || value === '')
@@ -24,4 +25,3 @@ const validateEnv = (e: typeof env) => {
 };
 
 validateEnv(env);
-

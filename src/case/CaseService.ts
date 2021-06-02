@@ -1,8 +1,8 @@
-import {Service} from "typedi";
+import { Service } from 'typedi';
 
 @Service()
 export class CaseService {
-  getAll() {
+  getAll(): string[] {
     return ['case1', 'case2'];
   }
 }
