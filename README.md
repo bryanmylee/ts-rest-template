@@ -1,4 +1,4 @@
-# SCDF Call Triaging System
+# REST Template
 
 ## Project structure
 
